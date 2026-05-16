@@ -13,6 +13,8 @@ cocok buat :
 * nugas
 * ato buat nyiksa diri sendiri biar ga rebahan terus
 
+<img width="541" height="525" alt="Screenshot_2026-05-16_09-58-44" src="https://github.com/user-attachments/assets/8288371c-fd8f-4409-ac57-84c0a4b773d4" />
+
 ---
 
 # Komponen Yang Dibutuhkan
