@@ -35,7 +35,7 @@ cocok buat :
 
 install library python dulu :
 
-```bash id="d5a9l7"
+```bash id="4fq9uy"
 pip install pyserial pygame
 ```
 
@@ -83,7 +83,7 @@ dan alarmnya gabisa mati sampe tombol dipencet lagi 😭
 
 upload file :
 
-```bash id="phu7rx"
+```bash id="ttlb4f"
 esp_antituru.ino
 ```
 
@@ -95,31 +95,88 @@ pake Arduino IDE kaya biasa
 
 jalanin :
 
-```bash id="plp0n5"
+```bash id="x4n1ic"
 python anti_turu.py
 ```
+
+---
+
+# Setting Serial Port
 
 nah sebelum dijalanin jangan lupa cek dulu serial portnya
 
 bagian ini :
 
-```python id="v5e4r9"
-PORT = "/dev/ttyUSB3"
+```python id="aq3myf"
+PORT = "COM4"
 ```
 
-soalnya tiap laptop kadang beda beda
+---
 
-buat cek port bisa pake :
+## Kalo Pake Windows
 
-```bash id="8r0jwk"
+biasanya portnya :
+
+* COM3
+* COM4
+* COM5
+* dst
+
+buat cek port :
+
+1. colok ESP8266
+2. buka Device Manager
+3. buka :
+
+```text id="nrbjlwm"
+Ports (COM & LPT)
+```
+
+nanti bakal muncul misal :
+
+```text id="ut2sbr"
+USB-SERIAL CH340 (COM4)
+```
+
+berarti tinggal ubah jadi :
+
+```python id="2i3yrn"
+PORT = "COM4"
+```
+
+---
+
+## Kalo Pake Linux
+
+cek port pake :
+
+```bash id="1fj5sy"
 ls /dev/ttyUSB*
+```
+
+biasanya muncul :
+
+```text id="a1l5t0"
+/dev/ttyUSB0
+```
+
+atau :
+
+```text id="wb6zyx"
+/dev/ttyUSB1
+```
+
+lalu ubah jadi :
+
+```python id="y5dz4m"
+PORT = "/dev/ttyUSB0"
 ```
 
 ---
 
 # Structure
 
-```bash id="m63f3g"
+```bash id="mjlwmx"
 .
 ├── esp_antituru.ino
 ├── anti_turu.py
@@ -143,7 +200,19 @@ kedepannya mungkin mamang mau nambah :
 
 ---
 
+# Built With
+
+* ESP8266
+* Python
+* PySerial
+* Pygame
+* Arduino IDE
+
+---
+
 oke sob semoga eksperimen kalian lancar jaya
 sampai jumpa di project absurd lainnya
 
 Salam Ngulik!!
+
+Project absurd by [Ngulikom](https://youtube.com/@ngulikom)
