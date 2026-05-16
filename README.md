@@ -1,4 +1,4 @@
-# Anti-Turu-PC
+# Anti-Turu-PC V1
 
 Halo sobat digital!!
 jadi di repository kali ini mamang bikin alat anti ketiduran berbasis ESP8266 + Python ☠️
@@ -188,19 +188,6 @@ PORT = "/dev/ttyUSB0"
 
 ---
 
-# Future Plan
-
-kedepannya mungkin mamang mau nambah :
-
-* statistik reaction time
-* mode random timing
-* OLED display
-* kamera deteksi mata
-* mode anti rebahan
-* integration ke smart lamp
-* mode setrum ☠️
-
----
 
 # Built With
 
