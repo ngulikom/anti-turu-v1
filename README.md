@@ -174,17 +174,7 @@ lalu ubah jadi :
 PORT = "/dev/ttyUSB0"
 ```
 
----
 
-# Structure
-
-```bash id="mjlwmx"
-.
-├── esp_antituru.ino
-├── anti_turu.py
-├── alarm.mp3
-└── README.md
-```
 
 ---
 
